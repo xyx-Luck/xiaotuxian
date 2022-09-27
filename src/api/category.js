@@ -20,3 +20,13 @@ export const findHot=(limit=4)=>{
 export const findBrand=(limit=10)=>{
     return request('/home/brand','get',{limit})
 }
+
+// 获取商品区块
+export const findGoods=()=>{
+    return request('/home/goods','get')
+}
+
+//最新专题
+export const findSpecial=()=>{
+    return request('/home/special','get')
+}

@@ -1,8 +1,8 @@
 <template>
     <homePanel title="热门品牌" sub-title="国际经典 品质保证">
       <template v-slot:right>
-        <a href="javascript:;" :class="{disabled:index===0}" class="iconfont icon-angle-left prev" @click="toggle(-1)">《></a>
-        <a href="javascript:;" :class="{disabled:index===1}" class="iconfont icon-angle-right next"  @click="toggle(1)">》</a>
+        <a href="javascript:;" :class="{disabled:index===0}" class="iconfont icon-angle-left prev" @click="toggle(-1)"></a>
+        <a href="javascript:;" :class="{disabled:index===1}" class="iconfont icon-angle-right next"  @click="toggle(1)"></a>
       </template>
       <div class="box" ref="target">
         <ul class="list" >

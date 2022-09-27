@@ -18,7 +18,9 @@ export const useLazyData=(apiFn)=>{
                     result.value=data.result;
                 })
             }
-        }
+        },
+        //配置选项，相交的比例大于1 就触发
+        {threshold:0},
     )
     return {target,result};
 }

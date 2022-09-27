@@ -5,6 +5,8 @@
         <HomeNew></HomeNew>
         <HomeHot></HomeHot>
         <HomeBrand></HomeBrand>
+        <HomeProducts></HomeProducts>
+        <HomeSpecial></HomeSpecial>
     </div>
   </template>
   <script>
@@ -13,6 +15,8 @@
   import HomeNew from './components/HomeNew.vue'
   import HomeHot from './components/HomeHot.vue'
   import HomeBrand from './components/HomeBrand.vue'
+  import HomeProducts from './components/Home-products.vue'
+  import HomeSpecial from './components/Home-special.vue';
   export default {
     name: "homePage",
     components:{
@@ -20,7 +24,9 @@
       carousel,
       HomeNew,
       HomeHot,
-      HomeBrand
+      HomeBrand,
+      HomeProducts,
+      HomeSpecial
     },
     setup() {
       
